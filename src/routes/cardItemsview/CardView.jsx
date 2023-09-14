@@ -30,7 +30,7 @@ const CardView = () => {
         <Nav/>
        <div className="view">
        <div className="img__cardView">
-             <img className="imgs"  src={"https://image.tmdb.org/t/p/original/"+ isView.backdrop_path} alt="" />
+             <img className="imgs"  src={"https://image.tmdb.org/t/p/original/"+ isView?.backdrop_path} alt="" />
         </div>
          <div className="title">
              <h1 className="title_cards">{isView?.title}</h1>
